@@ -17,5 +17,14 @@ jobs:
       - name: Afficher la date
         run: date
 
+      - name: Nom du projet
+        run: echo "Projet TP DevOps"
+
+      - name: Afficher mon nom
+        run: echo "Hayam Djimli"
+
+      - name: Afficher la date d'exécution
+        run: date
+
       - name: Afficher le système
         run: uname -a
